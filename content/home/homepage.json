@@ -1,0 +1,18 @@
+{
+  "title": "Home",
+  "content": "intro.md",
+  "logoText": "../assets/logo_name.png",
+  "about": {
+    "title": "About",
+    "content": "about.md"
+  },
+  "latest": {
+    "title": "Latest Release",
+    "game": "Move Bak",
+    "content": "latest.md"    
+  },
+  "gallery": [{
+    "alt": "move bak",
+    "image": "../images/gallery/moveBak_1.png"
+  }]
+}
