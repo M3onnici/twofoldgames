@@ -57,10 +57,14 @@ export const Container = styled.nav`
   ul {
     padding: 13rem;
     text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
     li {
       display: block;
       margin-bottom: 3.5rem;
+      padding-bottom: 3.5rem;
       opacity: 0;
+      border-bottom: 1px solid ${theme.sidemenu_border};
       i {
         font-size: 3.5rem;
         margin-right: 1rem;

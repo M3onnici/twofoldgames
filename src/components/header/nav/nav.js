@@ -17,16 +17,16 @@ function Nav() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/team">The Team</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">Move Bak</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">News</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">Contact Us</Link>
           </li>
         </ul>
       </Container>

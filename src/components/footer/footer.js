@@ -3,56 +3,37 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import Text from 'components/text';
 import { Link } from 'gatsby';
-import posed from 'react-pose';
 import Item from 'components/footer/item';
 import { Container, SocialMedia, Signature } from './footer.css';
 
-// Example of a component-specific page transition
-const AnimatedContainer = posed.div({
-  enter: {
-    y: 0,
-    transition: {
-      ease: 'easeInOut',
-    },
-  },
-  exit: {
-    y: '-100%',
-    transition: {
-      ease: 'easeInOut',
-    },
-  },
-});
-
 const Footer = ({ copyright, logo, items, content }) => (
-  <AnimatedContainer>
-    <Container>
-      <SocialMedia>
-        <div className="icons">
-          {items.map((item, i) => (
-            <Item {...item} key={i} />
-          ))}
-        </div>
-        <Text as="div">
-          <div
-            dangerouslySetInnerHTML={{
-              __html: content,
-            }}
-          />
-        </Text>
-      </SocialMedia>
-      <Signature>
-        <Link to="/">
-          <Img
-            fluid={logo ? logo.childImageSharp.fluid : {}}
-            alt="twofold games"
-          />
-        </Link>
-        <Text as="p" size="small">
-          {copyright}
-        </Text>
-      </Signature>
-    </Container>
-  </AnimatedContainer>
+  <Container>
+    <SocialMedia>
+      <div className="icons">
+        {items.map((item, i) => (
+          <Item {...item} key={i} />
+        ))}
+      </div>
+      <Text as="div">
+        <div
+          dangerouslySetInnerHTML={{
+            __html: content,
+          }}
+        />
+      </Text>
+    </SocialMedia>
+    <Signature>
+      <Link to="/">
+        <Img
+          fluid={logo ? logo.childImageSharp.fluid : {}}
+          alt="twofold games"
+        />
+      </Link>
+      <Text as="p" size="small">
+        {copyright}
+      </Text>
+    </Signature>
+  </Container>
 );
 
 Footer.propTypes = {

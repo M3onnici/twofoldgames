@@ -57,7 +57,6 @@ const Index = ({ data }) => (
       googlePlayBtn={data.genericJson.googlePlayBtn}
     />
     <div style={{ height: '20vh' }} />
-    {/* <IOExample /> */}
   </Layout>
 );
 
