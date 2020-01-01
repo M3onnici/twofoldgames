@@ -20,13 +20,13 @@ function Nav() {
             <Link to="/team">The Team</Link>
           </li>
           <li>
-            <Link to="/about">Move Bak</Link>
+            <Link to="/movebak">Move Bak</Link>
           </li>
           <li>
-            <Link to="/about">News</Link>
+            <Link to="/news">News</Link>
           </li>
           <li>
-            <Link to="/about">Contact Us</Link>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
       </Container>

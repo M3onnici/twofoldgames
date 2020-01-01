@@ -3,11 +3,11 @@
   "content": "content.md",
   "members": [{
     "name": "Joseph Bonnici",
-    "role": "The left brain. He codes",
+    "role": "He codes",
     "image": "../images/gallery/moveBak_1.png"
   }, {
     "name": "Mark Bonnici",
-    "role": "The right brain. He designs",
+    "role": "He designs",
     "image": "../images/gallery/moveBak_1.png"
   }]
 }
