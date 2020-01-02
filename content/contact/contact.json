@@ -1,0 +1,23 @@
+{
+  "title": "Contact Us",
+  "socialMediaTitle": "Social Media",
+  "contactUsTitle": "Let's Talk",
+  "content": "contact.md",
+  "socialMedia": [
+    {
+      "link": "https://www.facebook.com/twofoldgames/",
+      "image": "../assets/facebook.svg",
+      "text": "/twofoldgames"
+    },
+    {
+      "link": "/",
+      "image": "../assets/instagram.svg",
+      "text": "@twofoldgames"
+    },
+    {
+      "link": "/",
+      "image": "../assets/twitter.svg",
+      "text": "@twofoldgames"
+    }
+  ]
+}

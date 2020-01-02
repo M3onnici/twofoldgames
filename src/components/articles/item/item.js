@@ -10,13 +10,9 @@ const Item = ({ title, date, image, link, content }) => (
     <Title as="h2" size="large">
       {title}
     </Title>
-    <Text as="span">
-      {date}
-    </Text>
+    <Text as="span">{date}</Text>
     <Img fluid={image ? image.childImageSharp.fluid : {}} alt={name} />
-    <Text as="div">
-      {content.childMarkdownRemark.rawMarkdownBody}
-    </Text>
+    <Text as="div">{content.childMarkdownRemark.rawMarkdownBody}</Text>
     {link && (
       <ReadMore as="a" href={link}>
         Read more

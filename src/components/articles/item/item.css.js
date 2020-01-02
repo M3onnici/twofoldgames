@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { primary, secondary } from 'constants/theme';
+import { primary } from 'constants/theme';
 
 export const Container = styled.div`
   h2 {
@@ -12,7 +12,6 @@ export const Container = styled.div`
   > div {
     margin-bottom: 2rem;
   }
-  
 `;
 
 export const ReadMore = styled.a`
