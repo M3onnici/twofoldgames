@@ -1,1 +1,1 @@
-Read all about the [company](../assets/BrandBook.pdf) and our [privacy policy](/privacypolicy) here.
+Read all about the [company](../assets/BrandBook.pdf) and our [privacy policy](/privacy) here.
