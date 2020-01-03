@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { accent, tfBlue, primary } from 'constants/theme';
+import { accent, primary } from 'constants/theme';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -71,7 +71,7 @@ export default createGlobalStyle`
     color: ${accent};
     text-decoration: none;
     &:hover {
-      color: ${tfBlue};
+      text-decoration: underline;
     }
   }
 

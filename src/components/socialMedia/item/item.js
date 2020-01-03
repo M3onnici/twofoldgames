@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
 
 const Item = ({ link, image, text }) => (
   <div>
-    <Link to={link}>
+    <a href={link}>
       <img src={image.publicURL} alt="" />
-    </Link>
+    </a>
     <span>{text}</span>
   </div>
 );

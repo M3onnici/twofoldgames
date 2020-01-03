@@ -6,6 +6,7 @@ import DownloadLinks from 'components/downloadLinks';
 import Title from 'components/title';
 import Text from 'components/text';
 import Gallery from 'components/gallery';
+import { Link } from 'gatsby';
 import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
@@ -49,7 +50,9 @@ const Index = ({ data }) => (
         />
       </Text>
     </Box>
-    <Gallery items={data.homeJson.gallery} />
+    <Link to="/movebak">
+      <Gallery items={data.homeJson.gallery} />
+    </Link>
     <DownloadLinks
       appStoreLink={data.genericJson.appStoreLink}
       googlePlayLink={data.genericJson.googlePlayLink}

@@ -11,7 +11,7 @@ const Item = ({ title, date, image, link, content }) => (
       {title}
     </Title>
     <Text as="span">{date}</Text>
-    <Img fluid={image ? image.childImageSharp.fluid : {}} alt={name} />
+    <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
     <Text as="div">{content.childMarkdownRemark.rawMarkdownBody}</Text>
     {link && (
       <ReadMore as="a" href={link}>

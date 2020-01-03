@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Container } from './downloadLinks.css';
 import Img from 'gatsby-image';
-import { Link } from 'gatsby';
 
 const DownloadLinks = ({
   appStoreLink,
@@ -11,15 +10,15 @@ const DownloadLinks = ({
   googlePlayBtn,
 }) => (
   <Container>
-    <Link to={appStoreLink}>
+    <a href={appStoreLink}>
       <img src={appStoreBtn} alt="App Store" />
-    </Link>
-    <Link to={googlePlayLink}>
+    </a>
+    <a href={googlePlayLink}>
       <Img
         fluid={googlePlayBtn ? googlePlayBtn.childImageSharp.fluid : {}}
         alt="Google Play"
       />
-    </Link>
+    </a>
   </Container>
 );
 

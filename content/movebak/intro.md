@@ -1,0 +1,1 @@
+The world of Move Bak is inspired by the Maltese picturesque villages and buildings.  A more carefree time, where every trip on the bus to school or work felt like an adventure.

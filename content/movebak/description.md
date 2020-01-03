@@ -1,0 +1,1 @@
+Most of the buses you drive throughout the game are a symbol of an era long gone.
