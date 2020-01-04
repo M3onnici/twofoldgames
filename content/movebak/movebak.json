@@ -2,40 +2,33 @@
   "title": "move bak",
   "appStoreLink": "https://apps.apple.com/mt/developer/2fold-games/id942269606",
   "googlePlayLink": "https://play.google.com/store/apps/developer?id=2Fold+Games&hl=en",
-  "logo": "../assets/logo_symbol.png",
-  "firstImage": "../images/gallery/moveBak_1.png",
+  "logo": "../images/gallery/moveBaklogo.png",
+  "firstImage": "../images/gallery/moveBak2.png",
   "firstParagraphTitle": "An ode to a  simpler time",
   "firstParagraph": "intro.md",
-  "secondImage": "../images/gallery/moveBak_1.png",
+  "secondImage": "../images/gallery/moveBak3.png",
   "secondParagraphTitle": "Behind the big wheel",
   "secondParagraph": "description.md",
-  "thirdImage": "../images/gallery/moveBak_1.png",
+  "thirdImage": "../images/gallery/moveBak4.png",
   "thirdParagraphTitle": "Gameplay",
   "thirdParagraph": "gameplay.md",
   "pressKitLink":"../assets/moveBakPressKit.zip",
   "gallery": [
     {
       "alt": "move bak",
-      "image": "../images/gallery/moveBak_1.png"
+      "image": "../images/gallery/moveBak5.png"
     },
     {
       "alt": "move bak",
-      "image": "../images/gallery/moveBak_1.png"
+      "image": "../images/gallery/moveBak6.png"
     },
     {
       "alt": "move bak",
-      "image": "../images/gallery/moveBak_1.png"
+      "image": "../images/gallery/moveBak7.png"
     },
     {
       "alt": "move bak",
-      "image": "../images/gallery/moveBak_1.png"
-    },
-    {
-      "alt": "move bak",
-      "image": "../images/gallery/moveBak_1.png"
-    },{
-      "alt": "move bak",
-      "image": "../images/gallery/moveBak_1.png"
+      "image": "../images/gallery/moveBak8.png"
     }
   ]
 }

@@ -30,6 +30,7 @@ const MoveBak = ({ data }) => (
             : {}
         }
         alt={data.movebakJson.title}
+        style={{ width: '250px' }}
       />
       <DownloadLinks
         appStoreLink={data.movebakJson.appStoreLink}
@@ -58,6 +59,7 @@ const MoveBak = ({ data }) => (
             : {}
         }
         alt={data.movebakJson.title}
+        style={{ width: '250px' }}
       />
       <div style={{ height: '5vh' }} />
       <Title as="h2" size="medium">
@@ -79,6 +81,7 @@ const MoveBak = ({ data }) => (
             : {}
         }
         alt={data.movebakJson.title}
+        style={{ width: '250px' }}
       />
       <div style={{ height: '5vh' }} />
       <Title as="h2" size="medium">
