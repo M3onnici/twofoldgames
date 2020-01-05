@@ -2,9 +2,8 @@ import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem;
+  display: flex;
+  flex-direction: row;
   padding: 0 4rem;
   margin: 2rem 0;
   align-items: center;
@@ -16,5 +15,6 @@ export const Container = styled.div`
 
   .gatsby-image-wrapper {
     max-width: 300px;
+    min-width: 200px;
   }
 `;

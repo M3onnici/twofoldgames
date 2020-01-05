@@ -21,7 +21,7 @@ const MoveBak = ({ data }) => (
             : {}
         }
         alt={data.movebakJson.title}
-        style={{ width: '200px' }}
+        style={{ width: '200px', margin: '0 auto', top: '112px', zindex: '9' }}
       />
       <Img
         fluid={
@@ -30,7 +30,7 @@ const MoveBak = ({ data }) => (
             : {}
         }
         alt={data.movebakJson.title}
-        style={{ width: '250px' }}
+        style={{ width: '250px', margin: '0 auto' }}
       />
       <DownloadLinks
         appStoreLink={data.movebakJson.appStoreLink}
@@ -59,7 +59,7 @@ const MoveBak = ({ data }) => (
             : {}
         }
         alt={data.movebakJson.title}
-        style={{ width: '250px' }}
+        style={{ width: '250px', margin: '0 auto' }}
       />
       <div style={{ height: '5vh' }} />
       <Title as="h2" size="medium">
@@ -81,7 +81,7 @@ const MoveBak = ({ data }) => (
             : {}
         }
         alt={data.movebakJson.title}
-        style={{ width: '250px' }}
+        style={{ width: '250px', margin: '0 auto' }}
       />
       <div style={{ height: '5vh' }} />
       <Title as="h2" size="medium">

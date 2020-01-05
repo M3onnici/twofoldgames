@@ -3,7 +3,7 @@ import * as theme from 'constants/theme';
 
 export const Burger = styled.button`
   position: fixed;
-  top: 3.9rem;
+  top: 2.5rem;
   right: 4rem;
   width: 45px;
   height: 30px;
@@ -23,21 +23,22 @@ export const Burger = styled.button`
     &:before {
       content: '';
       height: ${theme.burger_line};
-      width: 100%;
+      width: 60%;
       background: ${theme.burger_color};
       position: absolute;
-      top: -10px;
+      top: 10px;
       right: 0;
       border-radius: 4px;
       transition: all 0.3s ease-in-out;
     }
     &.true {
       background: white;
+      transform: rotate(-50deg);
       &:before {
         opacity: 1;
-        transform: rotate(40deg);
-        width: 50%;
-        top: -6px;
+        transform: rotate(100deg);
+        width: 100%;
+        top: 0px;
         background: white;
       }
     }
