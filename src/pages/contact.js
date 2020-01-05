@@ -34,6 +34,7 @@ const Contact = ({ data }) => (
       </Title>
       <SocialMedia items={data.contactJson.socialMedia} />
     </Box>
+    <div style={{ height: '10vh' }} />
   </Layout>
 );
 

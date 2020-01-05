@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: 'Twofold games',
+  siteTitle: 'TWOFOLD GAMES',
   siteTitleShort: 'TwofoldGames',
   siteDescription:
     'We create digital experiences that stay with you long after you switch off your device',

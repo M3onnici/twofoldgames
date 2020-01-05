@@ -1,34 +1,54 @@
 {
   "title": "News",
   "news": [{
-    "title": "Item 1",
-    "date": "12.12.2019",
-    "link": "http://www.google.com",
-    "image": "../images/gallery/moveBak_1.png",
-    "content": "1.md"
-  },{
-    "title": "Item 2",
-    "date": "12.12.2019",
+    "title": "Twofold Games rebranded",
+    "date": "March 2020",
     "link": "",
-    "image": "../images/gallery/moveBak_1.png",
-    "content": "2.md"
-  },{
-    "title": "Item 3",
-    "date": "12.12.2019",
+    "image": "",
+    "content": "8.md"
+  },
+  {
+    "title": "Move Bak Update v1.3.4",
+    "date": "17th November 2019",
     "link": "",
-    "image": "../images/gallery/moveBak_1.png",
-    "content": "3.md"
-  },{
-    "title": "Item 4",
-    "date": "12.12.2019",
+    "image": "",
+    "content": "7.md"
+  },
+  {
+    "title": "Move Bak Update v1.2.1",
+    "date": "16th September 2019",
     "link": "",
-    "image": "../images/gallery/moveBak_1.png",
+    "image": "",
+    "content": "6.md"
+  },{
+    "title": "Move Bak on Kultura News",
+    "date": "23rd August 2019",
+    "link": "https://www.facebook.com/kulturanews/videos/398437024193166/",
+    "image": "",
+    "content": "5.md"
+  },{
+    "title": "The second part of the Interview with Newsbook",
+    "date": "19th August 2019",
+    "link": "https://newsbook.com.mt/en/watch-stay-concise-cut-scope-one-game-at-a-time-move-bak-developers/",
+    "image": "",
     "content": "4.md"
   },{
-    "title": "Item 5",
-    "date": "12.12.2019",
+    "title": "Interview with Newsbook about our game",
+    "date": "17th August 2019",
+    "link": "https://newsbook.com.mt/en/watch-there-arent-many-maltese-themed-games-move-bak-developers/",
+    "image": "",
+    "content": "3.md"
+  },{
+    "title": "Featured on Lovin Malta",
+    "date": "25th July 2019",
+    "link": "https://lovinmalta.com/lifestyle/technology/live-your-dream-of-becoming-a-typical-maltese-bus-driver-in-move-bak-a-game-that-actually-exists/",
+    "image": "",
+    "content": "2.md"
+  },{
+    "title": "Game Release - Move Bak",
+    "date": "24th June 2019",
     "link": "",
-    "image": "../images/gallery/moveBak_1.png",
-    "content": "5.md"
+    "image": "",
+    "content": "1.md"
   }]
 }

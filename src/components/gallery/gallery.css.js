@@ -4,9 +4,11 @@ import MEDIA from 'helpers/mediaTemplates';
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   padding: 0 4rem;
   margin: 2rem 0;
+  align-items: center;
+  justify-content: space-evenly;
 
   ${MEDIA.TABLET`
     display: block;

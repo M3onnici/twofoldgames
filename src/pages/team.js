@@ -14,10 +14,17 @@ const Team = ({ data }) => (
     <div style={{ height: '20vh' }} />
     <Box>
       <Title as="h3" size="large">
+        {data.teamJson.pageTitle}
+      </Title>
+      <Title as="h2" size="xlarge">
         {data.teamJson.title}
       </Title>
-      <Text as="div" size="medium">
-        <p>{data.teamJson.content.childMarkdownRemark.rawMarkdownBody}</p>
+      <Text as="div">
+        <div
+          dangerouslySetInnerHTML={{
+            __html: data.teamJson.content.childMarkdownRemark.html,
+          }}
+        />
       </Text>
       <div style={{ height: '10vh' }} />
       <Members items={data.teamJson.members} />
@@ -36,6 +43,7 @@ export const query = graphql`
   query TeamQuery {
     teamJson {
       title
+      pageTitle
       content {
         childMarkdownRemark {
           html
