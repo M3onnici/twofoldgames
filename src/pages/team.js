@@ -19,7 +19,7 @@ const Team = ({ data }) => (
       <Title as="h2" size="xlarge">
         {data.teamJson.title}
       </Title>
-      <Text as="div">
+      <Text as="div" size="large">
         <div
           dangerouslySetInnerHTML={{
             __html: data.teamJson.content.childMarkdownRemark.html,

@@ -12,6 +12,7 @@ export const Container = styled.div`
     display: inline-block;
     width: 200px;
     margin-right: 7px;
+    margin-bottom: 20px;
     img {
       width: 200px;
     }

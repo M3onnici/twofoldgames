@@ -6,7 +6,7 @@ import { Link } from 'gatsby';
 import Item from 'components/footer/item';
 import { Container, SocialMedia, Signature } from './footer.css';
 
-const Footer = ({ copyright, logo, items, content }) => (
+const Footer = ({ copyright, logo, items }) => (
   <Container>
     <SocialMedia>
       <div className="icons">
@@ -15,11 +15,13 @@ const Footer = ({ copyright, logo, items, content }) => (
         ))}
       </div>
       <Text as="div">
-        <div
-          dangerouslySetInnerHTML={{
-            __html: content,
-          }}
-        />
+        <div>
+          <span>Read all about the </span>
+          <a href="../../BrandBook.pdf">company</a>
+          <span> and our </span>
+          <Link to="/privacy">privacy policy</Link>
+          <span> here.</span>
+        </div>
       </Text>
     </SocialMedia>
     <Signature>

@@ -1,1 +1,1 @@
-Most of the buses you drive throughout the game are a symbol of an era long gone.
+Most of the buses you drive throughout the game are a symbol of an era long gone. Unlock new trucks and drive your route behind the wheel of the Maltese Kings of the road!

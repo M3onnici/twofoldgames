@@ -13,20 +13,20 @@ const Index = ({ data }) => (
   <Layout>
     <div style={{ height: '20vh' }} />
     <Box>
-      <Title as="h2" size="large">
+      <Text as="div" size="large">
         <div
           dangerouslySetInnerHTML={{
             __html: data.homeJson.content.childMarkdownRemark.html,
           }}
         />
-      </Title>
+      </Text>
     </Box>
     <div style={{ height: '50vh' }} />
     <Box>
       <Title as="h3" size="large">
         {data.homeJson.about.title}
       </Title>
-      <Text as="div" size="medium">
+      <Text as="div" size="large">
         <div
           dangerouslySetInnerHTML={{
             __html: data.homeJson.about.content.childMarkdownRemark.html,
@@ -36,13 +36,13 @@ const Index = ({ data }) => (
     </Box>
     <div style={{ height: '50vh' }} />
     <Box>
-      <Title as="h3" size="medium">
+      <Title as="h3" size="large">
         {data.homeJson.latest.title}
       </Title>
       <Title as="h2" size="xlarge">
         {data.homeJson.latest.game}
       </Title>
-      <Text as="div" size="medium">
+      <Text as="div" size="large">
         <div
           dangerouslySetInnerHTML={{
             __html: data.homeJson.latest.content.childMarkdownRemark.html,

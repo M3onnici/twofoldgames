@@ -26,14 +26,20 @@ export const SocialMedia = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
   color: ${primary};
   background: #fff;
   width: 100%;
 
+  div {
+    padding: 0 2rem;
+    text-align: center;
+  }
+
   .icons {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1rem;
     a {
       flex: 1 1;
       padding: 1rem;

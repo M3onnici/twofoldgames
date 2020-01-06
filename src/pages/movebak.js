@@ -21,7 +21,7 @@ const MoveBak = ({ data }) => (
             : {}
         }
         alt={data.movebakJson.title}
-        style={{ width: '200px', margin: '0 auto', top: '112px', zindex: '9' }}
+        style={{ width: '200px', margin: '0 auto', top: '112px', zIndex: '9' }}
       />
       <Img
         fluid={
@@ -62,7 +62,7 @@ const MoveBak = ({ data }) => (
         style={{ width: '250px', margin: '0 auto' }}
       />
       <div style={{ height: '5vh' }} />
-      <Title as="h2" size="medium">
+      <Title as="h2" size="xlarge">
         {data.movebakJson.secondParagraphTitle}
       </Title>
       <Text as="div">
@@ -84,7 +84,7 @@ const MoveBak = ({ data }) => (
         style={{ width: '250px', margin: '0 auto' }}
       />
       <div style={{ height: '5vh' }} />
-      <Title as="h2" size="medium">
+      <Title as="h2" size="xlarge">
         {data.movebakJson.thirdParagraphTitle}
       </Title>
       <Text as="div">

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import * as theme from 'constants/theme';
+import MEDIA from 'helpers/mediaTemplates';
 
 export const Burger = styled.button`
   position: fixed;
@@ -12,6 +13,10 @@ export const Burger = styled.button`
   outline: none;
   z-index: 9999;
   cursor: pointer;
+  ${MEDIA.TABLET`
+    position: absolute;
+    right: 2rem;
+  `};
   span {
     position: relative;
     height: ${theme.burger_line};
@@ -60,6 +65,9 @@ export const Container = styled.nav`
     text-align: center;
     max-width: 400px;
     margin: 0 auto;
+    ${MEDIA.TABLET`
+      padding: 13rem 4rem;
+    `};
     li {
       display: block;
       margin-bottom: 3.5rem;

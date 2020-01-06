@@ -2,6 +2,14 @@ import { createGlobalStyle } from 'styled-components';
 import { accent, primary } from 'constants/theme';
 
 export default createGlobalStyle`
+  @font-face {
+    font-family: 'beyno';
+    src: url('../content/assets/fonts/beyno-webfont.woff2') format('woff2'),
+        url('../content/assets/fonts/beyno-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -99,5 +107,6 @@ export default createGlobalStyle`
 
   h3 {
     color: ${primary};
+    font-family: "beyno","Open Sans","Segoe UI",Helvetica,Arial,sans-serif;
   }
 `;

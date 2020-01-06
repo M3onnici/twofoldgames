@@ -35,7 +35,7 @@ export const Content = styled.span`
         case 'xlarge':
           return '3.2rem';
         case 'large':
-          return '2.6rem';
+          return '2.2rem';
         case 'medium':
           return '1.6rem';
         case 'small':
