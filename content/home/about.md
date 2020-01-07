@@ -1,3 +1,3 @@
-We believe that entertainment must have at least two active ingredients to have a lasting effect on the person consuming it; entertainment & transfer of knowledge and/or emotions.
+We're a small indie games studio that loves to make interactive entertainment on topics and settings rarely explored in mobile games. 
 
-This is how we express ourselves. It’s how people experience us and our games.
+Our focus is to deliver bite-sized experiences that can be enjoyed without asking too much of the player's time. We trust that our approach to the craft resonates with you, the player.
