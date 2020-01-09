@@ -5,6 +5,7 @@ import Box from 'components/box';
 import DownloadLinks from 'components/downloadLinks';
 import Title from 'components/title';
 import Text from 'components/text';
+import ScrollDown from 'components/scrollDown';
 import Gallery from 'components/gallery';
 import { Link } from 'gatsby';
 import { graphql } from 'gatsby';
@@ -20,6 +21,7 @@ const Index = ({ data }) => (
           }}
         />
       </Text>
+      <ScrollDown />
     </Box>
     <div style={{ height: '50vh' }} />
     <Box>
