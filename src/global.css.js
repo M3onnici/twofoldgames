@@ -1,11 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 import { accent, primary } from 'constants/theme';
+import * as font from './fonts';
 
 export default createGlobalStyle`
   @font-face {
     font-family: 'beyno';
-    src: url('../content/assets/fonts/beyno-webfont.woff2') format('woff2'),
-        url('../content/assets/fonts/beyno-webfont.woff') format('woff');
+    src: url('${font.BeynoWeb}') format('woff2'),
+        url('${font.Beyno}') format('woff');
     font-weight: normal;
     font-style: normal;
   }
@@ -107,6 +108,6 @@ export default createGlobalStyle`
 
   h3 {
     color: ${primary};
-    font-family: "beyno","Open Sans","Segoe UI",Helvetica,Arial,sans-serif;
+    font-family: 'beyno',"Open Sans","Segoe UI",Helvetica,Arial,sans-serif;
   }
 `;

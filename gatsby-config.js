@@ -10,6 +10,7 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-transformer-json',
     'gatsby-transformer-remark',
+    `gatsby-plugin-favicon`,
     'gatsby-plugin-eslint',
     {
       resolve: 'gatsby-source-filesystem',

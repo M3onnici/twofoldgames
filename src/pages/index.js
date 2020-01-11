@@ -5,7 +5,6 @@ import Box from 'components/box';
 import DownloadLinks from 'components/downloadLinks';
 import Title from 'components/title';
 import Text from 'components/text';
-import ScrollDown from 'components/scrollDown';
 import Gallery from 'components/gallery';
 import { Link } from 'gatsby';
 import { graphql } from 'gatsby';
@@ -21,22 +20,9 @@ const Index = ({ data }) => (
           }}
         />
       </Text>
-      <ScrollDown />
+      {/* <ScrollDown /> */}
     </Box>
-    <div style={{ height: '50vh' }} />
-    <Box>
-      <Title as="h3" size="large">
-        {data.homeJson.about.title}
-      </Title>
-      <Text as="div" size="large">
-        <div
-          dangerouslySetInnerHTML={{
-            __html: data.homeJson.about.content.childMarkdownRemark.html,
-          }}
-        />
-      </Text>
-    </Box>
-    <div style={{ height: '50vh' }} />
+    <div style={{ height: '30vh' }} />
     <Box>
       <Title as="h3" size="large">
         {data.homeJson.latest.title}
@@ -61,6 +47,19 @@ const Index = ({ data }) => (
       appStoreBtn={data.genericJson.appStoreBtn.publicURL}
       googlePlayBtn={data.genericJson.googlePlayBtn}
     />
+    <div style={{ height: '30vh' }} />
+    <Box>
+      <Title as="h3" size="large">
+        {data.homeJson.about.title}
+      </Title>
+      <Text as="div" size="large">
+        <div
+          dangerouslySetInnerHTML={{
+            __html: data.homeJson.about.content.childMarkdownRemark.html,
+          }}
+        />
+      </Text>
+    </Box>
     <div style={{ height: '20vh' }} />
   </Layout>
 );

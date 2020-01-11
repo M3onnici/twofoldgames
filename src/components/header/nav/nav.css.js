@@ -63,7 +63,7 @@ export const Container = styled.nav`
   ul {
     padding: 13rem;
     text-align: center;
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     ${MEDIA.TABLET`
       padding: 13rem 4rem;
@@ -75,12 +75,13 @@ export const Container = styled.nav`
       opacity: 0;
       border-bottom: 1px solid ${theme.sidemenu_border};
       i {
-        font-size: 3.5rem;
+        font-size: 3rem;
         margin-right: 1rem;
       }
       a {
         color: ${theme.sidemenu_link};
         font-weight: 300;
+        display: block;
         text-decoration: none;
         font-size: 2.5rem;
         &:hover {

@@ -18,7 +18,7 @@ export const Content = styled.span`
       case 'xlarge':
         return '4.2rem';
       case 'large':
-        return '3.2rem';
+        return '3rem';
       case 'medium':
         return '2.6rem';
       case 'small':
@@ -27,17 +27,17 @@ export const Content = styled.span`
         return '2rem';
     }
   }};
-  line-height: 1.2;
+  line-height: 1.4;
 
   ${MEDIA.TABLET`
     font-size: ${({ size }) => () => {
       switch (size) {
         case 'xlarge':
-          return '3.2rem';
+          return '3rem';
         case 'large':
-          return '2.2rem';
+          return '2rem';
         case 'medium':
-          return '1.6rem';
+          return '1.4rem';
         case 'small':
           return '1.1rem';
         default:

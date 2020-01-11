@@ -83,8 +83,6 @@ const Head = ({
       name="msapplication-square310x310"
     />
 
-    <link href="/manifest.json" rel="manifest" />
-
     <link
       href="/icons/apple-touch-icon-57x57.png"
       rel="apple-touch-icon"
