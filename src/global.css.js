@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { accent, primary } from 'constants/theme';
+import { accent, primary, tfYellow } from 'constants/theme';
 import * as font from './fonts';
 
 export default createGlobalStyle`
@@ -55,6 +55,12 @@ export default createGlobalStyle`
     -webkit-font-feature-settings: "pnum";
     font-feature-settings: "pnum";
     font-variant-numeric: proportional-nums;
+    /* background-image: url("../../logo_symbol@x3.png");
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: 79%;
+    background-position-x: center;
+    background-position-y: 5%; */
   }
 
   ol, ul {
@@ -77,11 +83,16 @@ export default createGlobalStyle`
   }
 
   a {
-    color: ${accent};
+    color: ${primary};
     text-decoration: none;
     &:hover {
       text-decoration: underline;
+      color: ${tfYellow};
     }
+  }
+
+  i {
+    color: ${primary};
   }
 
   pre {

@@ -42,7 +42,7 @@ const LayoutWithQuery = props => (
           logoText {
             childImageSharp {
               fluid(maxHeight: 600, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_noBase64
               }
             }
           }

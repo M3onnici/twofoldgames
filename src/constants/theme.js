@@ -1,6 +1,7 @@
 export const accent = '#6e8266';
 export const tfBlue = '#1dc2d6';
 export const tfGreen = '#293131';
+export const tfYellow = '#e8f013';
 export const primary = '#4a5a5a';
 export const secondary = '#191f1f';
 
