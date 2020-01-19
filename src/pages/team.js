@@ -7,7 +7,7 @@ import Head from 'components/head';
 import Title from 'components/title';
 import Text from 'components/text';
 import Members from 'components/members';
-import Glitch from 'components/glitch';
+import Flicker from 'components/flicker';
 
 const Team = ({ data }) => (
   <Layout>
@@ -17,7 +17,10 @@ const Team = ({ data }) => (
       <Title as="h3" size="large">
         {data.teamJson.pageTitle}
       </Title>
-      <Glitch text={data.teamJson.title} page={'team'}></Glitch>
+      <Title as="h2" size="xlarge">
+        From <Flicker text="Gamers" /> to <Flicker text="Creators" />
+      </Title>
+      {/* <Glitch text={data.teamJson.title} page={'team'}></Glitch> */}
       <Text as="div" size="large">
         <div
           dangerouslySetInnerHTML={{

@@ -5,7 +5,6 @@ import Box from 'components/box';
 import DownloadLinks from 'components/downloadLinks';
 import Title from 'components/title';
 import Text from 'components/text';
-import Glitch from 'components/glitch';
 import Flicker from 'components/flicker';
 import Gallery from 'components/gallery';
 import { Link } from 'gatsby';
@@ -23,9 +22,15 @@ const Index = ({ data }) => (
         />
       </Text>
       <Text as="div" size="large">
-        <Flicker text={'Play'}/> <i>our games</i> <Flicker text={'now'}/> <i>on the</i> <br/>
-        <a href="https://apps.apple.com/mt/developer/2fold-games/id942269606">App Store</a>&nbsp;<i>,</i>&nbsp;
-        <a href="https://play.google.com/store/apps/developer?id=2Fold+Games&hl=en">Google Play</a>
+        <Flicker text={'Play'} /> <i>our games</i> <Flicker text={'now'} />{' '}
+        <i>on the</i> <br />
+        <a href="https://apps.apple.com/mt/developer/2fold-games/id942269606">
+          App Store
+        </a>
+        &nbsp;<i>,</i>&nbsp;
+        <a href="https://play.google.com/store/apps/developer?id=2Fold+Games&hl=en">
+          Google Play
+        </a>
       </Text>
       {/* <ScrollDown /> */}
     </Box>
@@ -34,7 +39,9 @@ const Index = ({ data }) => (
       <Title as="h3" size="large">
         {data.homeJson.latest.title}
       </Title>
-      <Glitch text={data.homeJson.latest.game} page={'home'}></Glitch>
+      <Title as="h2" size="xlarge">
+        <Flicker text={data.homeJson.latest.game} />
+      </Title>
       <Text as="div" size="large">
         <div
           dangerouslySetInnerHTML={{

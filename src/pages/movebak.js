@@ -9,6 +9,7 @@ import Img from 'gatsby-image';
 import Gallery from 'components/gallery';
 import Head from 'components/head';
 import { graphql } from 'gatsby';
+import Flicker from 'components/flicker';
 
 const MoveBak = ({ data }) => (
   <Layout>
@@ -63,7 +64,7 @@ const MoveBak = ({ data }) => (
       />
       <div style={{ height: '5vh' }} />
       <Title as="h2" size="xlarge">
-        {data.movebakJson.secondParagraphTitle}
+        <Flicker text={data.movebakJson.secondParagraphTitle} />
       </Title>
       <Text as="div">
         <div

@@ -17,7 +17,7 @@ const Footer = ({ copyright, logo, items }) => (
       <Text as="div">
         <div>
           <span>Read all about the </span>
-          <a href="../../BrandBook.pdf">company</a>
+          <a href="../../BrandBook.pdf.zip">company</a>
           <span> and our </span>
           <Link to="/privacy">privacy policy</Link>
           <span> here.</span>
