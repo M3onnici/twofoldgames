@@ -2,22 +2,29 @@
   "title": "News",
   "news": [{
     "title": "Twofold Games rebranded",
-    "date": "March 2020",
+    "date": "10th February 2020",
     "link": "",
     "image": "",
     "content": "8.md"
   },
   {
+    "title": "Move Bak Update v1.4.2",
+    "date": "30th January 2020",
+    "link": "https://play.google.com/store/apps/details?id=com.twofoldgames.movebak&hl=en",
+    "image": "",
+    "content": "9.md"
+  },
+  {
     "title": "Move Bak Update v1.3.4",
     "date": "17th November 2019",
-    "link": "",
+    "link": "https://play.google.com/store/apps/details?id=com.twofoldgames.movebak&hl=en",
     "image": "",
     "content": "7.md"
   },
   {
     "title": "Move Bak Update v1.2.1",
     "date": "16th September 2019",
-    "link": "",
+    "link": "https://play.google.com/store/apps/details?id=com.twofoldgames.movebak&hl=en",
     "image": "",
     "content": "6.md"
   },{
