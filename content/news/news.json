@@ -1,61 +1,89 @@
 {
   "title": "News",
-  "news": [{
-    "title": "Twofold Games rebranded",
-    "date": "10th February 2020",
-    "link": "",
-    "image": "",
-    "content": "8.md"
-  },
-  {
-    "title": "Move Bak Update v1.4.2",
-    "date": "30th January 2020",
-    "link": "https://play.google.com/store/apps/details?id=com.twofoldgames.movebak&hl=en",
-    "image": "",
-    "content": "9.md"
-  },
-  {
-    "title": "Move Bak Update v1.3.4",
-    "date": "17th November 2019",
-    "link": "https://play.google.com/store/apps/details?id=com.twofoldgames.movebak&hl=en",
-    "image": "",
-    "content": "7.md"
-  },
-  {
-    "title": "Move Bak Update v1.2.1",
-    "date": "16th September 2019",
-    "link": "https://play.google.com/store/apps/details?id=com.twofoldgames.movebak&hl=en",
-    "image": "",
-    "content": "6.md"
-  },{
-    "title": "Move Bak on Kultura News",
-    "date": "23rd August 2019",
-    "link": "https://www.facebook.com/kulturanews/videos/398437024193166/",
-    "image": "",
-    "content": "5.md"
-  },{
-    "title": "The second part of the Interview with Newsbook",
-    "date": "19th August 2019",
-    "link": "https://newsbook.com.mt/en/watch-stay-concise-cut-scope-one-game-at-a-time-move-bak-developers/",
-    "image": "",
-    "content": "4.md"
-  },{
-    "title": "Interview with Newsbook about our game",
-    "date": "17th August 2019",
-    "link": "https://newsbook.com.mt/en/watch-there-arent-many-maltese-themed-games-move-bak-developers/",
-    "image": "",
-    "content": "3.md"
-  },{
-    "title": "Featured on Lovin Malta",
-    "date": "25th July 2019",
-    "link": "https://lovinmalta.com/lifestyle/technology/live-your-dream-of-becoming-a-typical-maltese-bus-driver-in-move-bak-a-game-that-actually-exists/",
-    "image": "",
-    "content": "2.md"
-  },{
-    "title": "Game Release - Move Bak",
-    "date": "24th June 2019",
-    "link": "",
-    "image": "",
-    "content": "1.md"
-  }]
+  "news": [
+    {
+      "title": "Move Bak! featured on GamesKeys.Net ",
+      "date": "10th February 2021",
+      "link": "https://gameskeys.net/ios-games-that-are-worth-playing/#Move",
+      "image": "",
+      "content": "12.md"
+    },
+    {
+      "title": "Game1news.com talks about MoveBak!",
+      "date": "20th December 2020",
+      "link": "https://game1news.com/2020/12/16/move-bak/",
+      "image": "",
+      "content": "11.md"
+    },
+    {
+      "title": "Move Bak! being played on Maltese Television",
+      "date": "8th September 2020",
+      "link": "https://www.tvm.com.mt/.../programmes/gadgets-verzjoni-sajf/",
+      "image": "",
+      "content": "10.md"
+    },
+    {
+      "title": "Twofold Games rebranded",
+      "date": "10th February 2020",
+      "link": "",
+      "image": "",
+      "content": "8.md"
+    },
+    {
+      "title": "Move Bak Update v1.4.2",
+      "date": "30th January 2020",
+      "link": "https://play.google.com/store/apps/details?id=com.twofoldgames.movebak&hl=en",
+      "image": "",
+      "content": "9.md"
+    },
+    {
+      "title": "Move Bak Update v1.3.4",
+      "date": "17th November 2019",
+      "link": "https://play.google.com/store/apps/details?id=com.twofoldgames.movebak&hl=en",
+      "image": "",
+      "content": "7.md"
+    },
+    {
+      "title": "Move Bak Update v1.2.1",
+      "date": "16th September 2019",
+      "link": "https://play.google.com/store/apps/details?id=com.twofoldgames.movebak&hl=en",
+      "image": "",
+      "content": "6.md"
+    },
+    {
+      "title": "Move Bak on Kultura News",
+      "date": "23rd August 2019",
+      "link": "https://www.facebook.com/kulturanews/videos/398437024193166/",
+      "image": "",
+      "content": "5.md"
+    },
+    {
+      "title": "The second part of the Interview with Newsbook",
+      "date": "19th August 2019",
+      "link": "https://newsbook.com.mt/en/watch-stay-concise-cut-scope-one-game-at-a-time-move-bak-developers/",
+      "image": "",
+      "content": "4.md"
+    },
+    {
+      "title": "Interview with Newsbook about our game",
+      "date": "17th August 2019",
+      "link": "https://newsbook.com.mt/en/watch-there-arent-many-maltese-themed-games-move-bak-developers/",
+      "image": "",
+      "content": "3.md"
+    },
+    {
+      "title": "Featured on Lovin Malta",
+      "date": "25th July 2019",
+      "link": "https://lovinmalta.com/lifestyle/technology/live-your-dream-of-becoming-a-typical-maltese-bus-driver-in-move-bak-a-game-that-actually-exists/",
+      "image": "",
+      "content": "2.md"
+    },
+    {
+      "title": "Game Release - Move Bak",
+      "date": "24th June 2019",
+      "link": "",
+      "image": "",
+      "content": "1.md"
+    }
+  ]
 }
