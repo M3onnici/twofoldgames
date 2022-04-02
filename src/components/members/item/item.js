@@ -22,7 +22,7 @@ const AnimatedContainer = posed.div({
 const Item = ({ name, role, image }) => (
   <AnimatedContainer>
     <Container>
-      <Img fluid={image ? image.childImageSharp.fluid : {}} alt={name} />
+      {/* <Img fluid={image ? image.childImageSharp.fluid : {}} alt={name} /> */}
       <Name as="h2">{name}</Name>
       <Role as="div">{role}</Role>
     </Container>

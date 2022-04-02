@@ -28,7 +28,7 @@ const Index = ({ data }) => (
           App Store
         </a>
         &nbsp;<i>,</i>&nbsp;
-        <a href="https://play.google.com/store/apps/developer?id=2Fold+Games&hl=en">
+        <a href="https://play.google.com/store/apps/details?id=com.twofoldgames.movebak">
           Google Play
         </a>
       </Text>
